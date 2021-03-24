@@ -1,4 +1,4 @@
-# Exploratory Data Analysis Nuscenes
+# Exploratory Data Analysis (EDA) Nuscenes
 
 This file contain main guidelines for the development of an EDA regarding the [NuScenes](https://www.nuscenes.org) data set 
 
