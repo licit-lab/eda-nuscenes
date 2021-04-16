@@ -11,13 +11,13 @@ This file contain main guidelines for the development of an EDA regarding the [N
 
 ## Short term objectives 
 
-- [ ] Data exploration, environment preparation, package installation
-  - [ ] Environment setup [Link](https://github.com/nutonomy/nuscenes-devkit/blob/master/docs/installation.md#setup-a-conda-environment) 
-  - [ ] Tutorials available [Github](https://github.com/nutonomy/nuscenes-devkit/tree/master/python-sdk/tutorials), [Google collab](https://colab.research.google.com/github/nutonomy/nuscenes-devkit/)
+- [x] Data exploration, environment preparation, package installation
+  - [x] Environment setup [Link](https://github.com/nutonomy/nuscenes-devkit/blob/master/docs/installation.md#setup-a-conda-environment) 
+  - [x] Tutorials available [Github](https://github.com/nutonomy/nuscenes-devkit/tree/master/python-sdk/tutorials), [Google collab](https://colab.research.google.com/github/nutonomy/nuscenes-devkit/)
 
-- [ ] Identify relevant scenes according to the labels/videos associated to the scenes
-- [ ] Ego vehicle trajectory identification
-  - [ ] Build X-Y trajectory for EGO vehicle
+- [x] Identify relevant scenes according to the labels/videos associated to the scenes
+- [x] Ego vehicle trajectory identification
+  - [x] Build X-Y trajectory for EGO vehicle
   - [ ] Build TravelledDistance - Time trajectory for EGO vehicle
   - [ ] Identify the orientation of the camera with time and display the "x,y frame of the embedded referential" on the X-Y trajectory of the EGO vehicle
   - [ ] Associate to each point of the EGO vehicle a label defining the type of infrastructue on which it is driving (main lane, stop line, intersection etc)
