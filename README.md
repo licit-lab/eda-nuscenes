@@ -18,9 +18,9 @@ This file contain main guidelines for the development of an EDA regarding the [N
 - [x] Identify relevant scenes according to the labels/videos associated to the scenes
 - [x] Ego vehicle trajectory identification
   - [x] Build X-Y trajectory for EGO vehicle
-  - [ ] Build TravelledDistance - Time trajectory for EGO vehicle
+  - [x] Build TravelledDistance - Time trajectory for EGO vehicle
   - [ ] Identify the orientation of the camera with time and display the "x,y frame of the embedded referential" on the X-Y trajectory of the EGO vehicle
-  - [ ] Associate to each point of the EGO vehicle a label defining the type of infrastructue on which it is driving (main lane, stop line, intersection etc)
+  - [x] Associate to each point of the EGO vehicle a label defining the type of infrastructue on which it is driving (main lane, stop line, intersection etc)
 - [ ] Surrounding objects trajectory identification
   - [ ]  Collect the barycentre of the labelled objects 
   - [ ]  Display it on the "x,y frame of the embedded referential"
@@ -32,3 +32,6 @@ For a each scene of 20s (40 frames), fill in a dataframe and appply
   - [ ]   Assess the amount of NA values for each token
   - [ ]   Rank the token according to the interaction degree with the EGO vehicle
 
+Analytical analysis 
+ - [ ] Read the approaches related to similarities between trajectories. 
+ - [ ] Trace the level of interaction between ego vehicle trajectories and other objects in the scene.
